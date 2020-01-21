@@ -11,6 +11,10 @@ description: Coding and Cooking
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/54295783
 
+# Use kramdown and a default theme
+markdown: kramdown
+theme: minima
+
 #
 # Flags below are optional
 #
