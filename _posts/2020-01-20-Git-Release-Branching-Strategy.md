@@ -45,22 +45,22 @@ Now, we have a feature branch that we want to merge for a release, we still have
 
 If we wish to merge a feature to any of the three branches above, we can merge that branch into our feature branch, and then vice versa:
 * Merging `feature/A_easy` into `release/2.x`:
-```bash
+~~~ shell
 git checkout feature/A_easy
 git merge release/2.x
 git checkout release/2.x
 git merge feature/A_easy
-```
+~~~
 
 There are, however, a few extra steps that must be performed after merging to `release_and_master`, namely merging `release_and_master` into the `release/2.x` and `master` branches:
-```shell
+~~~ shell
 git checkout master
 git merge release_and_master
 git push
 git checkout release/2.x
 git merge release_and_master
 git push
-```
+~~~
 **At no point should `master` or `release/2.x` ever be merged into the `release_and_master` branch. Merges should only flow out from that branch.**
 
 ## Conclusion
