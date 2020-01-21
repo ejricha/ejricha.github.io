@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Shakshuka with Eggplant
+date: 2020-01-12
 category: cooking
 tags: [recipe, breakfast]
 ---
 
-Here's my first blog post!
+For my first blog post, I made shakshuka with eggplant. I derived the recipe from <http://immigrantstable.com/2014/09/29/eggplant-shakshuka>, with only minor adjustments.
 
 ## Ingredients
 * **Vegetable Oil** (2 Tbsp)
@@ -56,7 +57,7 @@ Here's my first blog post!
 1. Add the juice of half a lemon, top with the parsley, and serve with the french bread.
 ![served]
 
-[1]: http://immigrantstable.com/2014/09/29/eggplant-shakshuka/#.Xh5v3XVKg3w
+[1]: http://immigrantstable.com/2014/09/29/eggplant-shakshuka
 [tomatoes]: {{ site.baseurl }}/images/shakshuka/01-tomatoes.jpg
 [eggplant]: {{ site.baseurl }}/images/shakshuka/02-eggplant.jpg
 [spices]: {{ site.baseurl }}/images/shakshuka/03-spices.jpg
