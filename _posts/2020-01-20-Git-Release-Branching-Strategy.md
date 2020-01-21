@@ -48,8 +48,10 @@ If we wish to merge a feature to any of the three branches above, we can merge t
 ~~~ shell
 git checkout feature/A_easy
 git merge release/2.x
+git push
 git checkout release/2.x
 git merge feature/A_easy
+git push
 ~~~
 
 There are, however, a few extra steps that must be performed after merging to `release_and_master`, namely merging `release_and_master` into the `release/2.x` and `master` branches:
