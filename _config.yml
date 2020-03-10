@@ -13,7 +13,7 @@ avatar: https://avatars1.githubusercontent.com/u/54295783
 
 # Use kramdown and a default theme
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 
 #
 # Flags below are optional
